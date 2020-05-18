@@ -9,10 +9,9 @@ h1 {
 .block{
   border: 1px solid black;
   background-color: #8f8786;
-  width: 90%;
+  width: 100%;
   height: 150px;
-  margin-right: 15px;
-  margin-left: 15px;
+  margin: 15px;
   color: black;
   overflow:auto;
 }
