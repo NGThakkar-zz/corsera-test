@@ -1,0 +1,74 @@
+body{
+	background-color:#61122f;
+	color:#fff;
+}
+#header-nav{
+	background-color: #f6b319;
+	border-radius:0;
+	border:0;
+}
+
+.navbar-brand{
+	padding-top:25px;
+}
+
+.navbar-brand h1{
+	font-size:1.5em;
+	text-transform: uppercase;
+	/* margin-top:0; */
+	/* margin-bottom:0; */
+	text-shadow:1px 1px 1px #222;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.nav-color{
+    background-color:#f8e680;
+}
+.nav-item a:hover{
+    background-color:aqua;
+}
+
+#chicken{
+    position:relative;
+    background-color:#ff6a00;
+    height:auto;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    .hide-nav{
+        visibility:hidden;
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+   
+    .hide-nav {
+        visibility: hidden;
+    }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+    .show-nav {
+        visibility: visible;
+    }
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    .show-nav {
+        visibility: visible;
+    }
+    }
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+    .show-nav {
+        visibility: visible;
+    }
+}
